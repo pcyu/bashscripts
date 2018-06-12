@@ -1,13 +1,11 @@
 # bashscripts
 Using Visual Studio Code and Ubuntu.
-> cd ~
-> ls -a
-> code .bashrc
+> cd ~ && code .bashrc
 
 paste these scripts into that .bashrc file.
 
-# set-title "mongod"
-# will set your terminal tab title as "mongod"
+### set-title "mongod"
+#### will set your terminal tab title as "mongod"
 set-title(){
   ORIG=$PS1
   TITLE="\e]2;$@\a"
