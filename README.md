@@ -6,8 +6,8 @@ paste these scripts into that .bashrc file.
 
 ### set-title "mongod"
 #### will set your terminal tab title as "mongod"
-set-title(){
+> set-title(){
   ORIG=$PS1
   TITLE="\e]2;$@\a"
   PS1=${ORIG}${TITLE}
-}
+ }
