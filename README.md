@@ -1,10 +1,9 @@
-# bashscripts
+# bashscripts for ubuntu/vscode
 > cd ~ && code .bashrc
 
-Using Visual Studio Code and Ubuntu, paste these scripts into .bashrc file.
+#### customized terminal tabs
 
-#### Customized Terminal Tab Names
-
+paste into .bashrc and save.  
 ```
 set-title(){
   ORIG=$PS1
@@ -13,6 +12,7 @@ set-title(){
 }
 ```
 
+type into terminal
 ```console
 arlia@village:~$ set-title "mongod"
 ```
