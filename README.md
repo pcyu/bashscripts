@@ -13,7 +13,7 @@ set-title(){
 }
 
 ```console
-foo@bar:~$ set-title "mongod"
+arlia@village:~$ set-title "mongod"
 ```
 
 Outputs Terminal Tab Name "mongod"
