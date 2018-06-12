@@ -3,7 +3,7 @@
 
 #### customized terminal tabs
 
-paste into .bashrc and save.  
+paste into .bashrc and save:  
 ```
 set-title(){
   ORIG=$PS1
@@ -12,7 +12,7 @@ set-title(){
 }
 ```
 
-type into terminal
+type into terminal:
 ```console
 arlia@village:~$ set-title "mongod"
 ```
