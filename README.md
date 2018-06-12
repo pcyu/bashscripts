@@ -4,8 +4,7 @@ Using Visual Studio Code and Ubuntu.
 
 paste these scripts into that .bashrc file.
 
-### set-title "mongod"
-#### will set your terminal tab title as "mongod"
+#### Customized Terminal Tab Names
 
 set-title(){
   ORIG=$PS1
@@ -14,6 +13,7 @@ set-title(){
 }
 
 ```console
-foo@bar:~$ whoami
-foo
+foo@bar:~$ set-title "mongod"
 ```
+
+Outputs Terminal Tab Name "mongod"
